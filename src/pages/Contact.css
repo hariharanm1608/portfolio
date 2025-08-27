@@ -1,0 +1,49 @@
+.contact-section {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg, #6dd5ed, #2193b0);
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.contact-card {
+  display: inline-block;
+  padding: 2rem 3rem;
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+.contact-link:hover {
+  transform: scale(1.05);
+}
+
+.contact-icon {
+  margin-right: 10px;
+  font-size: 1.8rem;
+}
+
+.contact-icon.email {
+  color: #ff4b5c;
+}
+
+.contact-icon.linkedin {
+  color: #0077b5;
+}
