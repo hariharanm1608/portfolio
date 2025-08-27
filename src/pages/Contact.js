@@ -1,29 +1,27 @@
-import React from 'react';
-import { FaEnvelope, FaLinkedin } from 'react-icons/fa';
-import './Contact.css'; // Importing CSS
+import React from "react";
+import { FaLinkedin, FaEnvelope } from "react-icons/fa";
+import "./Contact.css"; // optional, for styling
 
 const Contact = () => {
   return (
-    <section id="contact" className="contact-section">
+    <section id="contact">
       <h2>Contact Me</h2>
-      <div className="contact-card">
-        {/* Email */}
-        <a href="mailto:hariharanm1608@email.com" className="contact-link">
-          <FaEnvelope className="contact-icon email" />
+      <p>
+        <a href="mailto:hariharanm1608@email.com" target="_blank" rel="noopener noreferrer">
+          <FaEnvelope size={24} style={{ marginRight: "8px" }} />
           hariharanm1608@email.com
         </a>
-
-        {/* LinkedIn */}
+      </p>
+      <p>
         <a
           href="https://www.linkedin.com/in/your-linkedin-username"
           target="_blank"
           rel="noopener noreferrer"
-          className="contact-link"
         >
-          <FaLinkedin className="contact-icon linkedin" />
+          <FaLinkedin size={24} style={{ marginRight: "8px" }} />
           LinkedIn Profile
         </a>
-      </div>
+      </p>
     </section>
   );
 };
